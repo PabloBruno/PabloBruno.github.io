@@ -6,18 +6,20 @@
     <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
     <!--
    -->
     <style>
         .fondo{
-            background:url('resources/fondoPresentacion.jpg') no-repeat center ;
-
+            background:url('resources/fondoPresentacion.jpg') no-repeat center fixed;
+            background-size: cover;
         }
         .titulo{
             font-family: 'Arizonia', cursive;
             font-size: 100px;
             text-align: center;
-            color: rgba(6, 77, 147, 0.3);
+            color: rgba(44, 50, 189, 0.3);
 
             text-shadow:rgba(255,255,255,.5) 0 0 15px, rgba(255,255,255,.5) 0 0 10px;
         }
@@ -55,6 +57,16 @@
             background-color: transparent;
         }
 
+        .button3{
+            font-family: 'Special Elite', cursive;
+            font-size: 40px;
+            text-align: center;
+            color: rgb(145, 149, 149);
+
+            border-color: transparent;
+            background-color: transparent;
+        }
+
 
     </style>
 </head>
@@ -65,7 +77,6 @@
 
 <div class="lin">
 
-    <!--<a href="deathDrivePresentation.html"> Death Drive</a>-->
     <input class="button2" type="button" onclick="location.href='JuegoDelNumero/index.html';" value="Juego del Numero" />
 
 </div>
@@ -73,9 +84,16 @@
 
 <div class="lin">
 
-   <!--<a href="deathDrivePresentation.html"> Death Drive</a>-->
-    <input class="button" type="button" onclick="location.href='deathDrivePresentation.html';" value="Death Drive" />
+    <input class="button" type="button" onclick="location.href='JuegoDeathDrive/index.html';" value="Death Drive" />
 
 </div>
+<br>
+<div class="lin">
+
+
+    <input class="button3" type="button" onclick="location.href='Formaciones/index.html';" value="Formaciones" />
+
+</div>
+
 </body>
 </html>
